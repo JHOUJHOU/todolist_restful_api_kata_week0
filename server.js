@@ -100,7 +100,7 @@ const requestListener = (req, res) => {
   } else {
     res.writeHead(404, headers);
     res.write( JSON.stringify({
-      "status": "success",
+      "status": "false",
       "message": "無此網站"
     }));
     res.end();
